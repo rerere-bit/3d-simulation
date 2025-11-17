@@ -1,1 +1,2 @@
 # 3d-simulation
+Program perhitungan posisi benda tiga dimensi Arduino Uno. Program ini menerima masukan berupa satu satuan gaya searah sumbu x, y, z sesuai dengan masukan pengguna melalui keyboard "wasdqe". Melalui metode euler, variabel percepatan dari gaya kemudian diintegrasi terhadap dt sehingga mendapatkan kecepatan. Kemudian diintegrasi sekali lagi hingga mendapatkan posisi yang akan ditampilkan di serial monitor,
